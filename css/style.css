@@ -1,0 +1,15 @@
+body{margin:0;}
+
+.first-nav{
+  background-color: #131313;
+  padding:7px;
+}
+.first-nav ul{
+  margin:0;
+}
+.first-nav ul li{
+  display:inline-block;
+}
+.second-nav ul li{
+  display:inline-block;
+}
