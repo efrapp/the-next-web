@@ -155,6 +155,11 @@ body{
     padding: 12px;
   }
 /*Latest Funding rounds section*/
+.themes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .lfr-nav{
   float: right;
 }
@@ -173,6 +178,7 @@ body{
 
   .theme-content{
     position: relative;
+    flex-basis: 24%;
   }
 
   .theme-content a:nth-child(1){
@@ -183,7 +189,7 @@ body{
     background-color: #f42;
     color: white;
     margin: 0;
-    padding: 10px 10px 10px 7%;
+    padding: 10px 10px 10px 79px;
   }
 
   .img-company{
@@ -195,7 +201,7 @@ body{
 
   .funding-theme{
     background-color: rgba(255,68,34,.08);
-    padding: 10px 10px 10px 7%;
+    padding: 10px 10px 10px 81px;
   }
 
   .funding-theme h4, .funding-theme h3{
@@ -215,4 +221,35 @@ body{
 
   .theme-labels{
     background-color: #fffaf8;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    font-size: 13px;
+  }
+  .theme-labels a{
+    margin-bottom: 8px;
+    text-decoration: none;
+    color:#515151;
+  }
+  .theme-labels a:hover{
+    color: black;
+  }
+  .label-icons{
+    background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
+    background-position: 76.2% 76.2%;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+  }
+  .theme-text{
+    padding: 10px 16px 16px 16px;
+    background-color: #fffaf8;
+    font-size: 12px;
+  }
+  .theme-text a{
+    text-decoration: none;
+    color: #515151;
+  }
+  .theme-text span{
+    color: #bdbcbc;
   }
