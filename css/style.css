@@ -1,4 +1,7 @@
-body{margin:0;}
+body{
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  margin: 0;
+}
 
 .first-nav{
   background-color: #131313;
@@ -6,10 +9,57 @@ body{margin:0;}
 }
 .first-nav ul{
   margin:0;
+  padding-left: 10px;
 }
 .first-nav ul li{
   display:inline-block;
+  margin-left: 10px;
 }
+
+.first-nav ul li a{
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.second-nav{
+  height: 48px;
+}
+
+.second-nav ul{
+  margin: 0;
+  padding-left: 10px;
+}
+
 .second-nav ul li{
   display:inline-block;
+  padding-top: 13px;
+}
+
+.second-nav ul li a{
+  color: #aaa;
+  font-family: Shentox, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px 0 15px;
+  text-decoration: none;
+}
+
+.second-nav ul li a:hover{
+  color: black;
+}
+
+.search-section{
+  border-left: 1px solid grey;
+  float: right;
+  padding: 16px 20px 16px 15px;
+}
+
+.search-icon{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-color: transparent;
+  background-position: -832px -832px;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  display: block;
 }
