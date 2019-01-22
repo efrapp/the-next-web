@@ -170,3 +170,49 @@ body{
     border-left: 1px solid #f42;
     padding: 0 7px;
   }
+
+  .theme-content{
+    position: relative;
+  }
+
+  .theme-content a:nth-child(1){
+    text-decoration: none;
+  }
+
+  .title-theme{
+    background-color: #f42;
+    color: white;
+    margin: 0;
+    padding: 10px 10px 10px 7%;
+  }
+
+  .img-company{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .funding-theme{
+    background-color: rgba(255,68,34,.08);
+    padding: 10px 10px 10px 7%;
+  }
+
+  .funding-theme h4, .funding-theme h3{
+    margin: 0;
+  }
+
+  .fund-value{
+    color: black;
+    font-weight: bold;
+  }
+
+  .seed-fund{
+    color: #aaa;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .theme-labels{
+    background-color: #fffaf8;
+  }
