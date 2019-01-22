@@ -23,6 +23,7 @@ body{
 }
 
 .second-nav{
+  box-shadow: 0 33px 0 #efefef;
   height: 48px;
 }
 
@@ -49,7 +50,7 @@ body{
 }
 
 .search-section{
-  border-left: 1px solid grey;
+  border-left: 1px solid #efefef;
   float: right;
   padding: 16px 20px 16px 15px;
 }
@@ -63,3 +64,34 @@ body{
   height: 16px;
   display: block;
 }
+.three-sections{
+  height: 55vh;
+  margin-top: 34px;
+  display: flex;
+}
+
+  .main-image{
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/iPhone-SE-hed-796x419.jpg) no-repeat;
+    background-position: 55% 50%;
+    background-size: cover;
+    height: 100%;
+    width: 66.6666%;
+    margin-left: 10px;
+  }
+  .side-images{
+    flex-wrap: wrap;
+    width: 32%;
+    margin-left: 5px;
+  }
+  .first-side-image{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/UnitedvPool-796x418.jpg")no-repeat;
+    height: 27vh;
+    width: 100%;
+    margin-bottom:5px;
+  }
+
+  .second-side-image{
+    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/image-recognition-796x419.jpg")no-repeat;
+    height: 27vh;
+    width: 100%;
+  }
