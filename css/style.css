@@ -96,14 +96,16 @@ body{
     width: 100%;
   }
 
-  .main-container{
-    margin: 0 auto;
-    max-width: 900px;
-  }
+.main-container{
+  margin: 0 auto;
+  max-width: 1192px;
+}
 
   .latest-news-title a{
     color: #f42;
     text-decoration: none;
+    padding-left: 12px;
+    font-size: 28px;
   }
 
   .img-news{
@@ -144,4 +146,27 @@ body{
     color: #aaa;
     text-decoration: none;
   }
-
+  .latest-news-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .latest-news-content{
+    flex-basis: 20%;
+    padding: 12px;
+  }
+/*Latest Funding rounds section*/
+.lfr-nav{
+  float: right;
+}
+  .lfr-nav a{
+    color: #f42;
+    font-size: 14px;
+    padding: 0 3px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .lfr-nav a:nth-child(2){
+    border-right: 1px solid #f42;
+    border-left: 1px solid #f42;
+    padding: 0 7px;
+  }
