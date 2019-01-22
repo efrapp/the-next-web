@@ -95,3 +95,53 @@ body{
     height: 27vh;
     width: 100%;
   }
+
+  .main-container{
+    margin: 0 auto;
+    max-width: 900px;
+  }
+
+  .latest-news-title a{
+    color: #f42;
+    text-decoration: none;
+  }
+
+  .img-news{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/robots-514x270.jpg);
+    background-size: 270px 135px;
+    display: block;
+    height: 135px;
+    width: 270px;
+  }
+
+  .title-news{
+    margin: 0;
+    padding: 5px 0 0 0;
+  }
+
+  .title-news a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .date-news{
+    color: #aaa;
+    display: inline-flex;
+    font-size: 13px;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+  }
+
+  .date-news li:nth-child(1)::after{
+    content: "\B7";
+    display: block;
+    float: right;
+    margin: 0 4px;
+  }
+
+  .date-news li:nth-child(1) a{
+    color: #aaa;
+    text-decoration: none;
+  }
+
