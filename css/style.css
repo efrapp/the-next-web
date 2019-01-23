@@ -253,6 +253,15 @@ body{
   }
 
   /* Articles section */
+
+  .articles{
+    display: flex;
+  }
+
+  .article-wrapp{
+    flex-basis: 33%;
+  }
+
   .articles ul{
     padding:0;
   }
@@ -279,22 +288,57 @@ body{
     padding-left: 14px;
     font-size: 13px;
   }
-  .article-popular-sec a:not(.date-news-anchor){
-    text-decoration: none;
+
+  .article-short-title{
     color: white;
-  }
-  .article-shor-title{
     margin:0;
   }
   .article-long-title {
     margin-top: 3px;
     margin-bottom: 2px;
   }
+
+  .article-long-title a{
+    color: white;
+    text-decoration: none;
+  }
+
   .date-news-anchor{
     text-decoration: none;
     color: #aaa;
     padding-bottom: 5px;
   }
-  .date-news-anchor:hover{
+  .date-news .date-news-anchor:hover{
     color:white;
+  }
+
+  .date-news li:nth-child(1)::after{
+    content: "\B7";
+    display: block;
+    float: right;
+    margin: 0 4px;
+  }
+
+  .latest-subsection-wrapper{
+    background-color: rgba(255,68,34,.08);
+  }
+
+  .latest-title-article{
+    color: #f42;
+    font-size: 13px;
+  }
+
+  .latest-text-article{
+    color: #f42;
+    text-decoration: none;
+  }
+
+  .latest-img-article{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/bitcoin-soft-fork.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 96px;
+    width: 96px;
   }
