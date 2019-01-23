@@ -256,14 +256,18 @@ body{
 
   .articles{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .article-wrapp{
-    flex-basis: 33%;
+    flex-basis: 25%;
+    flex-wrap: wrap;
   }
 
   .articles ul{
     padding:0;
+    list-style: none;
   }
   .article-main-titles a{
     color: #f42;
@@ -321,11 +325,15 @@ body{
 
   .latest-subsection-wrapper{
     background-color: rgba(255,68,34,.08);
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
   }
 
   .latest-title-article{
     color: #f42;
-    font-size: 13px;
+    font-size: 11px;
+    margin: 17px 0 3px 0;
   }
 
   .latest-text-article{
@@ -342,3 +350,22 @@ body{
     height: 96px;
     width: 96px;
   }
+
+  .latest-info{
+    flex: 1;
+    padding-left: 13px;
+  }
+  .dot-style{
+    padding: 7px 0 7px 0;
+    border-bottom: 1px solid #e7e7e7;
+  }
+ .dot-style::before{
+    content: "•";
+    color: #f42;
+ }
+ .dot-style a{
+   text-decoration: none;
+   color: #aaa;
+   font-size: 14px;
+   padding-left: 4px;
+ }
