@@ -7,6 +7,7 @@ body{
   background-color: #131313;
   padding:7px;
 }
+
 .first-nav ul{
   margin:0;
   padding-left: 10px;
@@ -25,6 +26,14 @@ body{
 .second-nav{
   box-shadow: 0 33px 0 #efefef;
   height: 48px;
+}
+
+.logo-navbar{
+  display: none;
+  background-color: black;
+  float: left;
+  padding: 15px;
+  width: 72px;
 }
 
 .second-nav ul{
@@ -49,9 +58,12 @@ body{
   color: black;
 }
 
+.nav-right-icons{
+  float: right;
+}
+
 .search-section{
   border-left: 1px solid #efefef;
-  float: right;
   padding: 16px 20px 16px 15px;
 }
 
@@ -64,6 +76,26 @@ body{
   height: 16px;
   display: block;
 }
+
+.menu-icon{
+  display: none;
+  position: relative;
+  height: 64px;
+  width: 20px;
+}
+
+.menu-icon span{
+  display: none;
+  transition: .4s;
+  background-color: #f42;
+  height: 4px;
+  left: 14px;
+  margin-top: -1px;
+  position: absolute;
+  top: 50%;
+  width: 20px;
+}
+
 .three-sections{
   height: 55vh;
   margin-top: 34px;
@@ -511,4 +543,34 @@ body{
 .creator-wrapper span a{
   text-decoration: none;
   color: white;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 766px){
+
+  .first-nav{
+    display: none;
+  }
+
+  .logo-navbar{
+    display: block;
+  }
+
+  .logo-navbar img{
+    height: 16px;
+    width: 66px;
+  }
+
+  .second-nav ul{
+    display: none;
+  }
+
+  .menu-icon{
+    display: block;
+  }
+
+  .menu-icon span{
+    display: block;
+  }
 }
