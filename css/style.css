@@ -715,6 +715,11 @@ body{
     flex-basis: 100%;
     max-width: 100%;
   }
+
+  .creator-wrapper span{
+    display: block;
+    padding-bottom: 5px;
+  }
 }
 
 
