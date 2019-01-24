@@ -5,6 +5,12 @@ body{
 *{
   box-sizing: border-box;
 }
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
 .first-nav{
   background-color: #131313;
   padding:7px;
@@ -28,11 +34,12 @@ body{
 .second-nav{
   box-shadow: 0 33px 0 #efefef;
   height: 48px;
+  background-color: white;
 }
 
 .logo-navbar{
-  display: none;
-  background-color: black;
+  display: block;
+  background: linear-gradient(to right bottom ,#c09,#f42 85%);
   float: left;
   padding: 15px;
   width: 95px;
@@ -106,7 +113,7 @@ body{
 
 .three-sections{
   height: 55vh;
-  margin-top: 34px;
+  margin-top: 112px;
   display: flex;
 }
 
@@ -620,10 +627,6 @@ body{
 
   .first-nav{
     display: none;
-  }
-
-  .logo-navbar{
-    display: block;
   }
 
   .logo-navbar img{
