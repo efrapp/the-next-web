@@ -2,7 +2,9 @@ body{
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   margin: 0;
 }
-
+*{
+  box-sizing: border-box;
+}
 .first-nav{
   background-color: #131313;
   padding:7px;
@@ -60,11 +62,12 @@ body{
 
 .nav-right-icons{
   float: right;
+  display: inline-flex;
 }
 
 .search-section{
   border-left: 1px solid #efefef;
-  padding: 16px 20px 16px 15px;
+  padding: 16px;
 }
 
 .search-icon{
@@ -78,17 +81,22 @@ body{
 }
 
 .menu-icon{
+  border-left: 1px solid #efefef;
   display: none;
+  padding: 24px;
   position: relative;
-  height: 64px;
-  width: 20px;
 }
-
+.menu-icon span:nth-child(1){
+  transform: translateY(-6px);
+}
+.menu-icon span:nth-child(3){
+  transform: translateY(6px);
+}
 .menu-icon span{
   display: none;
   transition: .4s;
   background-color: #f42;
-  height: 4px;
+  height: 2px;
   left: 14px;
   margin-top: -1px;
   position: absolute;
@@ -108,15 +116,16 @@ body{
     background-size: cover;
     height: 100%;
     width: 66.6666%;
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .side-images{
     flex-wrap: wrap;
     width: 32%;
-    margin-left: 5px;
+    margin:0 5px 0 5px;
   }
   .first-side-image{
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/UnitedvPool-796x418.jpg")no-repeat;
+    background-size: cover;
     height: 27vh;
     width: 100%;
     margin-bottom:5px;
@@ -124,6 +133,7 @@ body{
 
   .second-side-image{
     background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/image-recognition-796x419.jpg")no-repeat;
+    background-size: cover;
     height: 27vh;
     width: 100%;
   }
@@ -132,19 +142,21 @@ body{
   margin: 0 auto;
   max-width: 1192px;
 }
-
+  .latest-news-title{
+    padding-left: 13px;
+    margin: 30px 0 1px 0;
+  }
   .latest-news-title a{
     color: #f42;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 18px;
   }
 
   .img-news{
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/robots-514x270.jpg);
-    background-size: 270px 135px;
+    background-size: cover;
     display: block;
-    height: 135px;
-    width: 270px;
+    padding-top: 50%;
   }
 
   .title-news{
@@ -187,8 +199,8 @@ body{
     flex-wrap: wrap;
   }
   .latest-news-content{
-    flex-basis: 20%;
-    padding: 12px;
+    flex-basis: 25%;
+    padding: 13px;
     position: relative;
   }
 /*Latest Funding rounds section*/
@@ -558,7 +570,7 @@ body{
   }
 
   .logo-navbar img{
-    height: 16px;
+    height: 14px;
     width: 66px;
   }
 
@@ -572,5 +584,44 @@ body{
 
   .menu-icon span{
     display: block;
+  }
+  .three-sections{
+    display: block;
+  }
+  .main-image,.side-images{
+    float: left;
+    width: 98%;
+    margin-left: 0;
+  }
+  .side-images > div{
+    margin-top: 5px;
+  }
+  .latest-news-content{
+    flex-basis:100%;
+  }
+  .img-news{
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    padding-top: 10%;
+    position: absolute;
+    width: 10%;
+  }
+  .title-news{
+    padding-left: 89px;
+  }
+  .date-news{
+    padding-left: 91px;
+  }
+}
+
+@media only screen and (min-width: 767px){
+  .latest-news-content{
+    flex-basis: 33.33333%;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .latest-news-content{
+    flex-basis: 25%;
   }
 }
