@@ -200,7 +200,8 @@ body{
   }
   .latest-news-content{
     flex-basis: 25%;
-    padding: 13px;
+    max-width: 25%;
+    padding: 20px 27px;
     position: relative;
   }
 /*Latest Funding rounds section*/
@@ -312,8 +313,10 @@ body{
   }
 
   .article-wrapp{
-    flex-basis: 25%;
+    flex-basis: 33%;
     flex-wrap: wrap;
+    max-width: 33%;
+    padding: 21px;
   }
 
   .articles ul{
@@ -435,9 +438,8 @@ body{
 }
   .deals-img{
     background-image: url(https://cdnp1.stackassets.com/89c25ae754b1631ed566c27e0ac553bf873bcb65/store/a35aec34b49e9bd9481ab8803847f600c1ada8013cd1c2e91fb73ed81097/sale_17490_primary_image.jpg);
-    background-size: 270px 201px;
-    height: 201px;
-    width: 270px;
+    background-size: cover;
+    padding-top: 75%;
   }
 
   .deals-discount{
@@ -446,7 +448,7 @@ body{
     background-repeat: no-repeat;
     background-size: 26%;
     height: 100%;
-    margin: 12px 12px 0 0;
+    margin: 20px 27px 0 0;
     position: absolute;
     right: 0;
     width: 100%;
@@ -557,7 +559,63 @@ body{
 }
 
 /* Media Queries */
+/*medim size screens*/
+@media only screen and (max-width: 1024px){
+  .latest-news-wrapper{
+    padding: 8px;
+  }
+  .latest-news-content{
+    flex-basis: 33.33333%;
+    max-width: 33.3333%;
+    padding: 20px 9px;
+  }
 
+  .themes div:nth-child(4){
+      display: none;
+      padding: 12px;
+  }
+
+  .theme-content{
+    flex-basis: 33.33333%;
+    max-width: 33.3333%;
+    padding: 0 11px;
+  }
+
+  .img-company{
+      left: 11px;
+  }
+
+  .theme-content{
+    flex-basis: 33.3333%;
+    max-width: 33.3333%
+  }
+
+  .latest-funding-rounds{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .lfr-nav{
+    float: none;
+    padding: 20px 20px 20px 15px;
+  }
+
+  .articles{
+    padding: 10px;
+  }
+  .article-wrapp{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+  .deals-discount{
+    margin: 20px 9px 0 0;
+  }
+  .deals-img{
+    padding-top: 78%;
+  }
+}
+/* Mobile Or tablet Look */
 @media only screen and (max-width: 766px){
 
   .first-nav{
@@ -597,14 +655,21 @@ body{
   }
   .latest-news-content{
     flex-basis:100%;
+    max-width: 100%;
   }
   .img-news{
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50%;
     display: block;
-    padding-top: 10%;
+    padding: 38px;
     position: absolute;
-    width: 10%;
+  }
+  .deals-discount{
+    display: none;
+  }
+  .deals-price{
+    padding-left: 92px;
   }
   .title-news{
     padding-left: 89px;
@@ -620,88 +685,43 @@ body{
   }
 
   .lfr-nav{
-    position: absolute;
-    padding-top: 45px;
+    padding-top: 5px;
+    padding-bottom: 0px;
   }
 
   .lfr-nav a{
     display: block;
-    padding-bottom: 10px;
-    padding-left: 14px;
+    padding: 8px 15px;
     text-align: left;
   }
 
   .lfr-nav a:nth-child(2){
     border: none;
-    padding-bottom: 10px;
-    padding-left: 14px;
+    padding: 8px 15px;
   }
 
   .latest-news-title{
-    margin: 30px 0 100px 0;
+    padding-top: 55px;
+    clear: both;
   }
 
   .theme-content{
     flex-basis: 100%;
-    margin: 15px 15px 0 15px;
+    max-width: 100%;
+    margin: 15px 4px 0 4px;
   }
 
   .article-wrapp{
     flex-basis: 100%;
+    max-width: 100%;
   }
 }
 
-@media only screen and (min-width: 767px){
-  .latest-news-content{
-    flex-basis: 33.33333%;
-  }
 
-  .themes{
-    padding: 0 5px;
-  }
-
-  .theme-content{
-    padding: 0 11px;
-    flex-basis: 33.33333%;
-  }
-
-  .img-company{
-      left: 11px;
-  }
-}
-
-@media only screen and (min-width: 1024px){
-  .latest-news-content{
-    flex-basis: 25%;
-  }
-
-  .theme-content{
-    flex-basis: 25%;
-  }
-
-  .latest-funding-rounds{
-    display: flex;
-    flex-direction: column-reverse;
-  }
-
-  .lfr-nav{
-    float: none;
-    padding: 20px 20px 20px 15px
-  }
-
-  .article-wrapp{
+@media only screen and (min-width: 1440px){
+  /* .article-wrapp{
     flex-basis: 33.333333%;
     max-width: 33.3333%;
     padding: 10px;
-  }
-
-  .img-articles{
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 1440px){
-
+  } */
 }
