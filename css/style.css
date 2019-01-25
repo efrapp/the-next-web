@@ -5,7 +5,6 @@ body{
 *{
   -webkit-box-sizing:border-box;
   box-sizing: border-box;
-
 }
 header{
   position: fixed;
@@ -120,28 +119,48 @@ header{
 }
 
   .main-image{
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/iPhone-SE-hed-796x419.jpg) no-repeat;
+    background: linear-gradient(to right bottom ,#ff4422cc,#000000ed 99%),linear-gradient(to bottom,#ff4422,#80808000 100%),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/iPhone-SE-hed-796x419.jpg) no-repeat;
     background-position: 55% 50%;
     background-size: cover;
     height: 100%;
     margin-left: 5px;
+    position: relative;
     width: 66.6666%;
   }
+  .main-image-texts{
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+  }
+  .main-image-texts a{
+    color:white;
+    text-decoration: none;
+  }
+  .tech,.main-title-info,.main-title-info a{
+    color:grey;
+    text-decoration: none;
+  }
+  .main-image-title{
+    font-size: 62px;
+    margin: 3px 0 3px 0;
+  }
+
   .side-images{
     flex-wrap: wrap;
     margin:0 5px 0 5px;
     width: 32%;
   }
   .first-side-image{
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/UnitedvPool-796x418.jpg")no-repeat;
+    background: linear-gradient(#80808000,black 95%),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/UnitedvPool-796x418.jpg)no-repeat;
     background-size: cover;
     height: 27vh;
-    margin-bottom:5px;
+    margin-bottom:9px;
     width: 100%;
   }
 
   .second-side-image{
-    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/image-recognition-796x419.jpg")no-repeat;
+    background:linear-gradient(#80808000,black 95%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/image-recognition-796x419.jpg")no-repeat;
     background-size: cover;
     height: 27vh;
     width: 100%;
@@ -153,11 +172,10 @@ header{
 }
   .latest-news-title{
     margin: 30px 0 1px 0;
-    padding-left: 13px;
+
   }
   .latest-news-title a{
     color: #f42;
-    font-size: 18px;
     text-decoration: none;
   }
 
@@ -210,7 +228,7 @@ header{
   .latest-news-content{
     flex-basis: 25%;
     max-width: 25%;
-    padding: 20px 27px;
+    padding: 20px 26px 0 0;
     position: relative;
   }
 /*Latest Funding rounds section*/
@@ -218,9 +236,11 @@ header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 25px;
 }
 .lfr-nav{
   float: right;
+  padding-top: 10px;
 }
   .lfr-nav a{
     color: #f42;
@@ -325,7 +345,7 @@ header{
     flex-basis: 33%;
     flex-wrap: wrap;
     max-width: 33%;
-    padding: 21px;
+    padding: 21px 21px 21px 0;
   }
 
   .articles ul{
@@ -566,6 +586,9 @@ header{
   color: white;
   text-decoration: none;
 }
+.deals-price span:nth-child(2){
+  color: #555555;
+}
 
 /* Media Queries */
 /*medim size screens*/
@@ -606,8 +629,8 @@ header{
 
   .lfr-nav{
     float: none;
-    padding: 20px 20px 20px 15px;
-  }
+    padding: 9px 0 0 15px;
+    }
 
   .articles{
     padding: 10px;
@@ -626,7 +649,9 @@ header{
 }
 /* Mobile Or tablet Look */
 @media only screen and (max-width: 766px){
-
+  .main-image{
+    height: 27vh;
+  }
   .first-nav{
     display: none;
   }
