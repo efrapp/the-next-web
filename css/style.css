@@ -3,12 +3,14 @@ body{
   margin: 0;
 }
 *{
+  -webkit-box-sizing:border-box;
   box-sizing: border-box;
+
 }
 header{
   position: fixed;
-  width: 100%;
   top: 0;
+  width: 100%;
   z-index: 1;
 }
 .first-nav{
@@ -32,14 +34,14 @@ header{
 }
 
 .second-nav{
+  background-color: white;
   box-shadow: 0 33px 0 #efefef;
   height: 48px;
-  background-color: white;
 }
 
 .logo-navbar{
-  display: block;
   background: linear-gradient(to right bottom ,#c09,#f42 85%);
+  display: block;
   float: left;
   padding: 15px;
   width: 95px;
@@ -68,8 +70,8 @@ header{
 }
 
 .nav-right-icons{
-  float: right;
   display: inline-flex;
+  float: right;
 }
 
 .search-section{
@@ -78,13 +80,13 @@ header{
 }
 
 .search-icon{
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
   background-color: transparent;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
   background-position: -832px -832px;
   background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
   display: block;
+  height: 16px;
+  width: 16px;
 }
 
 .menu-icon{
@@ -100,21 +102,21 @@ header{
   transform: translateY(6px);
 }
 .menu-icon span{
-  display: none;
-  transition: .4s;
   background-color: #f42;
+  display: none;
   height: 2px;
   left: 14px;
   margin-top: -1px;
   position: absolute;
   top: 50%;
+  transition: .4s;
   width: 20px;
 }
 
 .three-sections{
+  display: flex;
   height: 55vh;
   margin-top: 112px;
-  display: flex;
 }
 
   .main-image{
@@ -122,20 +124,20 @@ header{
     background-position: 55% 50%;
     background-size: cover;
     height: 100%;
-    width: 66.6666%;
     margin-left: 5px;
+    width: 66.6666%;
   }
   .side-images{
     flex-wrap: wrap;
-    width: 32%;
     margin:0 5px 0 5px;
+    width: 32%;
   }
   .first-side-image{
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/UnitedvPool-796x418.jpg")no-repeat;
     background-size: cover;
     height: 27vh;
-    width: 100%;
     margin-bottom:5px;
+    width: 100%;
   }
 
   .second-side-image{
@@ -150,13 +152,13 @@ header{
   max-width: 1192px;
 }
   .latest-news-title{
-    padding-left: 13px;
     margin: 30px 0 1px 0;
+    padding-left: 13px;
   }
   .latest-news-title a{
     color: #f42;
-    text-decoration: none;
     font-size: 18px;
+    text-decoration: none;
   }
 
   .img-news{
@@ -224,18 +226,18 @@ header{
     color: #f42;
     font-size: 14px;
     padding: 0 3px;
-    text-decoration: none;
     text-align: center;
+    text-decoration: none;
   }
   .lfr-nav a:nth-child(2){
-    border-right: 1px solid #f42;
     border-left: 1px solid #f42;
+    border-right: 1px solid #f42;
     padding: 0 7px;
   }
 
   .theme-content{
-    position: relative;
     flex-basis: 24%;
+    position: relative;
   }
 
   .theme-content a:nth-child(1){
@@ -250,14 +252,14 @@ header{
   }
 
   .img-company{
+    left: 0;
     margin: 10px;
     position: absolute;
     top: 0;
-    left: 0;
   }
 
   .funding-theme{
-    background-color: rgba(255,68,34,.08);
+    background-color: #ff442214;
     padding: 10px 10px 10px 81px;
   }
 
@@ -280,13 +282,13 @@ header{
     background-color: #fffaf8;
     display: flex;
     flex-direction: column;
-    padding: 16px;
     font-size: 13px;
+    padding: 16px;
   }
   .theme-labels a{
+    color:#515151;
     margin-bottom: 8px;
     text-decoration: none;
-    color:#515151;
   }
   .theme-labels a:hover{
     color: black;
@@ -294,18 +296,18 @@ header{
   .label-icons{
     background: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783) no-repeat;
     background-position: 76.2% 76.2%;
-    width: 16px;
-    height: 16px;
     display: inline-block;
+    height: 16px;
+    width: 16px;
   }
   .theme-text{
-    padding: 10px 16px 16px 16px;
     background-color: #fffaf8;
     font-size: 12px;
+    padding: 10px 16px 16px 16px;
   }
   .theme-text a{
-    text-decoration: none;
     color: #515151;
+    text-decoration: none;
   }
   .theme-text span{
     color: #bdbcbc;
@@ -327,13 +329,13 @@ header{
   }
 
   .articles ul{
-    padding:0;
     list-style: none;
+    padding:0;
   }
   .article-main-titles a{
     color: #f42;
-    text-decoration: none;
     font-size: 28px;
+    text-decoration: none;
   }
 
   .img-articles{
@@ -347,10 +349,10 @@ header{
   }
   .article-popular-sec{
     bottom:0;
-    left: 0;
-    position: absolute;
-    padding-left: 14px;
     font-size: 13px;
+    left: 0;
+    padding-left: 14px;
+    position: absolute;
   }
 
   .article-short-title{
@@ -358,8 +360,8 @@ header{
     margin:0;
   }
   .article-long-title {
-    margin-top: 3px;
     margin-bottom: 2px;
+    margin-top: 3px;
   }
 
   .article-long-title a{
@@ -368,9 +370,9 @@ header{
   }
 
   .date-news-anchor{
-    text-decoration: none;
     color: #aaa;
     padding-bottom: 5px;
+    text-decoration: none;
   }
   .date-news .date-news-anchor:hover{
     color:white;
@@ -384,7 +386,7 @@ header{
   }
 
   .latest-subsection-wrapper{
-    background-color: rgba(255,68,34,.08);
+    background-color: #ff442214;
     display: flex;
     font-size: 15px;
     font-weight: bold;
@@ -403,9 +405,9 @@ header{
 
   .latest-img-article{
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/bitcoin-soft-fork.jpg);
-    background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    background-size: cover;
     display: inline-block;
     height: 96px;
     width: 96px;
@@ -416,18 +418,18 @@ header{
     padding-left: 13px;
   }
   .dot-style{
-    padding: 7px 0 7px 0;
     border-bottom: 1px solid #e7e7e7;
+    padding: 7px 0 7px 0;
   }
  .dot-style::before{
-    content: "•";
     color: #f42;
+    content: "•";
  }
  .dot-style a{
-   text-decoration: none;
    color: #aaa;
    font-size: 14px;
    padding-left: 4px;
+   text-decoration: none;
  }
 
  /* Latest Deals section */
@@ -458,8 +460,8 @@ header{
     margin: 20px 27px 0 0;
     position: absolute;
     right: 0;
-    width: 100%;
     top: 0;
+    width: 100%;
   }
 
   .deals-discount div{
@@ -467,8 +469,8 @@ header{
     font-weight: 900;
     position: absolute;
     right: -1px;
-    transform: rotate(45deg);
     top: 20px;
+    transform: rotate(45deg);
   }
 
  .deals-price{
@@ -484,10 +486,10 @@ header{
 /*FOOTER SECTION */
 .icons{
   background:url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
-  width: 16px;
-  height: 16px;
   display: block;
-  margin: 11px 0px 0 12px;
+  height: 16px;
+  margin: 11px 0 0 12px;
+  width: 16px;
 }
 .facebook-icon{
   background-position: 21.2% 21.2%;
@@ -511,8 +513,8 @@ header{
   background-position: 45% 45%;
 }
 .widget-section{
-  padding: 28px 0;
   background-color: #131313;
+  padding: 28px 0;
 }
 .widget-section ul{
   list-style: none;
@@ -523,8 +525,8 @@ header{
   display: inline-block;
 }
 .widget-wrapper{
-  max-width: 1192px;
   margin:0 auto;
+  max-width: 1192px;
 }
 .creator-wrapper{
   text-align: center;
@@ -533,21 +535,21 @@ header{
   padding-right: 10px;
 }
 .widgets li a{
-  width: 40px;
-  height: 40px;
-  display: block;
-  border-radius: 50%;
-  border: 2px solid #333;
   background-color: #333;
+  border: 2px solid #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  width: 40px;
 }
 .widgets li a:hover{
   background-color: #131313;
 }
 .events li a{
   color: #9e9e9e;
-  text-decoration: none;
   font-size: 12px;
   padding-right: 6px;
+  text-decoration: none;
 }
 .events li a:hover{
   color: white;
@@ -557,12 +559,12 @@ header{
   padding: 39px;
 }
 .creator-wrapper span{
-  font-size: 13px;
   color: #ecf4fb;
+  font-size: 13px;
 }
 .creator-wrapper span a{
-  text-decoration: none;
   color: white;
+  text-decoration: none;
 }
 
 /* Media Queries */
@@ -650,8 +652,8 @@ header{
   }
   .main-image,.side-images{
     float: left;
-    width: 98%;
     margin-left: 0;
+    width: 98%;
   }
   .side-images > div{
     margin-top: 5px;
@@ -661,9 +663,9 @@ header{
     max-width: 100%;
   }
   .img-news{
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
     padding: 38px;
     position: absolute;
@@ -688,8 +690,8 @@ header{
   }
 
   .lfr-nav{
+    padding-bottom: 0;
     padding-top: 5px;
-    padding-bottom: 0px;
   }
 
   .lfr-nav a{
@@ -704,14 +706,14 @@ header{
   }
 
   .latest-news-title{
-    padding-top: 55px;
     clear: both;
+    padding-top: 55px;
   }
 
   .theme-content{
     flex-basis: 100%;
-    max-width: 100%;
     margin: 15px 4px 0 4px;
+    max-width: 100%;
   }
 
   .article-wrapp{
@@ -723,13 +725,4 @@ header{
     display: block;
     padding-bottom: 5px;
   }
-}
-
-
-@media only screen and (min-width: 1440px){
-  /* .article-wrapp{
-    flex-basis: 33.333333%;
-    max-width: 33.3333%;
-    padding: 10px;
-  } */
 }
