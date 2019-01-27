@@ -186,6 +186,34 @@ header{
     padding-top: 50%;
   }
 
+  .img-news.picture2{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/mQfIz8HI-481x270.jpeg);
+  }
+
+  .img-news.picture3 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/53YUnPh-540x270.jpg);
+  }
+
+  .img-news.picture4 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/header-image-VCs-women-516x270.png);
+  }
+
+  .img-news.picture5 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/46340106302_98d5c0864e_o-406x270.jpg);
+  }
+
+  .img-news.picture6 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/kik-kin-cryptocurrency-blockchain-tips-1-478x270.jpg);
+  }
+
+  .img-news.picture7 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/kVddsF8-405x270.jpg);
+  }
+
+  .img-news.picture8 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Screen-Shot-2019-01-25-at-13.58.50-540x270.png);
+  }
+
   .title-news{
     margin: 0;
     padding: 5px 0 0 0;
@@ -359,11 +387,35 @@ header{
   }
 
   .img-articles{
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/2-blockchain-ing-corda-r3-dlt-cryptocurrency-banking-finance-trading-368x276.jpg);
     background-size: cover;
     padding-top: 75%;
     position: relative;
   }
+
+  .img-articles.picture1{
+    background-image: linear-gradient( #ffffff05, black), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/2-blockchain-ing-corda-r3-dlt-cryptocurrency-banking-finance-trading-368x276.jpg);
+  }
+
+  .img-articles.picture2 {
+    background-image: linear-gradient( #ffffff05, black), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/China-Bing-368x276.jpg);
+  }
+
+  .img-articles.picture3 {
+    background-image: linear-gradient( #ffffff05, black), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/IMG_0277-good-hed-368x276.jpg);
+  }
+
+  .img-articles.picture4 {
+    background-image: linear-gradient( #ffffff05, black), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/mQfIz8HI-368x276.jpeg);
+  }
+
+  .img-articles.picture5 {
+    background-image: linear-gradient( #ffffff05, black), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/unnamed-e1548340941939-368x276.jpg);
+  }
+
+  .img-articles.picture6 {
+    background-image: linear-gradient( #ffffff05, black), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Untitled-design79-368x276.png);
+  }
+
   .article-header,.latest-subsection{
     list-style: none;
   }
@@ -433,6 +485,26 @@ header{
     width: 96px;
   }
 
+  .latest-img-article.picture2 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/harley-livewire.jpg);
+  }
+
+  .latest-img-article.picture3 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/11/gaming-2259191_1920.jpg);
+  }
+
+  .latest-img-article.picture4 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Untitled-design-10-1.png);
+  }
+
+  .latest-img-article.picture5 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/WP1qaFJ.jpg);
+  }
+
+  .latest-img-article.picture6 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Untitled-design76.png);
+  }
+
   .latest-info{
     flex: 1;
     padding-left: 13px;
@@ -454,6 +526,10 @@ header{
 
  /* Latest Deals section */
 
+.latest-deals{
+  margin-bottom: 30px;
+}
+
 .all-deals-link{
   color: #f42;
   float: right;
@@ -466,7 +542,6 @@ header{
   text-decoration: underline;
 }
   .deals-img{
-    background-image: url(https://cdnp1.stackassets.com/89c25ae754b1631ed566c27e0ac553bf873bcb65/store/a35aec34b49e9bd9481ab8803847f600c1ada8013cd1c2e91fb73ed81097/sale_17490_primary_image.jpg);
     background-size: cover;
     padding-top: 75%;
   }
@@ -482,6 +557,38 @@ header{
     right: 0;
     top: 0;
     width: 100%;
+  }
+
+  .deals-img.picture1 {
+    background-image: url(https://cdnp1.stackassets.com/89c25ae754b1631ed566c27e0ac553bf873bcb65/store/a35aec34b49e9bd9481ab8803847f600c1ada8013cd1c2e91fb73ed81097/sale_17490_primary_image.jpg);
+  }
+
+  .deals-img.picture2 {
+    background-image: url(https://cdnp1.stackassets.com/dd7a9bcc0eccfbb3d1ec99226bcfff1f831eeccc/store/6b02ff97f52fbb2584f560bbaf4aed06a1cb88bb9ae92fb3762b6ce98999/sale_16005_primary_image.jpg);
+  }
+
+  .deals-img.picture3 {
+    background-image: url(https://cdnp2.stackassets.com/974a9c89ba2cd7949bf69effeefd500ffb75ec0c/store/3d91f15872d875ce5dbc052044167a13e7e24ad9ef3e08a5e97c8738002f/646a716d008937ac7913bf2f07957dbbef690829_main_hero_image.jpg);
+  }
+
+  .deals-img.picture4 {
+    background-image: url(https://cdnp1.stackassets.com/917e96e7cfb9676b9d01afe1ea0911fa1a4bf2e6/store/ac9f96be6be922156c6884a63fe0af3d70d11f501f191fcf8f9764a99924/sale_17562_primary_image.jpg);
+  }
+
+  .deals-img.picture5 {
+    background-image: url(https://cdnp2.stackassets.com/d079abeb7538746e98d002ca2c636cf7468db3a5/store/528d5fcfd90022f4a041a023e3a3de1357d3fb0f44641b44c11228271cd5/sale_17354_primary_image.jpg);
+  }
+
+  .deals-img.picture6 {
+    background-image: url(https://cdnp3.stackassets.com/29624e00f7dc7c107c4b4388e0e4f6cb2c72d3f2/store/98c6c272db053d34335a36e716cbca3e28253ff788698464f1e4426fb340/sale_17371_primary_image.jpg);
+  }
+
+  .deals-img.picture7 {
+    background-image: url(https://cdnp2.stackassets.com/adf0a5599f076118780dc4afabb0c215c3e447b4/store/6ceb4a07b0d9226cc5c80b5303865c4482612f8bdf77245d59baaa732c76/sale_17563_primary_image.jpg);
+  }
+
+  .deals-img.picture8 {
+    background-image: url(https://cdnp1.stackassets.com/2e9945e898151519e4c1ebcdb07c49708ba5ef62/store/e098e6349b767185770df5adc391f3e917138045270af1b2f4b908403686/sale_17561_primary_image.jpg);
   }
 
   .deals-discount div{
