@@ -857,4 +857,7 @@ header{
     display: block;
     padding-bottom: 5px;
   }
+  .main-image-title{
+    font-size: 30px;
+  }
 }
