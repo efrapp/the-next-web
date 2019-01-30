@@ -140,6 +140,7 @@ header{
   .tech,.main-title-info,.main-title-info a{
     color:grey;
     text-decoration: none;
+    font-size: 14px;
   }
   .main-image-title{
     font-size: 62px;
@@ -157,8 +158,27 @@ header{
     height: 27vh;
     margin-bottom:9px;
     width: 100%;
+    position:relative;
   }
-
+  .first-side-image-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 17px;
+  }
+  .first-side-image-title{
+    margin: 0;
+    line-height: 1;
+    font-size: 27px;
+  }
+  .first-side-image-title a{
+    text-decoration: none;
+    color: white;
+  }
+  .second-side-image{
+    padding: 17px;
+    position: relative;
+  }
   .second-side-image{
     background:linear-gradient(#80808000,black 95%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/image-recognition-796x419.jpg")no-repeat;
     background-size: cover;
@@ -171,8 +191,7 @@ header{
   max-width: 1192px;
 }
   .latest-news-title{
-    margin: 30px 0 1px 0;
-
+  margin: 30px 3px 1px 8px;
   }
   .latest-news-title a{
     color: #f42;
@@ -238,13 +257,6 @@ header{
     padding: 0;
   }
 
-  .date-news li:nth-child(1)::after{
-    content: "\B7";
-    display: block;
-    float: right;
-    margin: 0 4px;
-  }
-
   .date-news li:nth-child(1) a{
     color: #aaa;
     text-decoration: none;
@@ -256,7 +268,7 @@ header{
   .latest-news-content{
     flex-basis: 25%;
     max-width: 25%;
-    padding: 20px 26px 0 0;
+    padding: 20px 9px 0 9px;
     position: relative;
   }
 /*Latest Funding rounds section*/
@@ -265,10 +277,12 @@ header{
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 25px;
+  padding: 0 9px 0 9px;
 }
 .lfr-nav{
   float: right;
   padding-top: 10px;
+  padding-right: 7px;
 }
   .lfr-nav a{
     color: #f42;
@@ -352,6 +366,7 @@ header{
     background-color: #fffaf8;
     font-size: 12px;
     padding: 10px 16px 16px 16px;
+    border-top: 1px solid #eabcb2;
   }
   .theme-text a{
     color: #515151;
@@ -367,19 +382,21 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-left: 1px;
   }
 
   .article-wrapp{
     flex-basis: 33%;
     flex-wrap: wrap;
     max-width: 33%;
-    padding: 21px 21px 21px 0;
+    padding: 21px 10px 21px 10px;
   }
 
   .articles ul{
     list-style: none;
     padding:0;
   }
+
   .article-main-titles a{
     color: #f42;
     font-size: 28px;
@@ -535,6 +552,7 @@ header{
   float: right;
   padding-top: 8px;
   text-decoration: none;
+  padding-right: 9px;
 }
 
 .all-deals-link:hover{
@@ -552,7 +570,7 @@ header{
     background-repeat: no-repeat;
     background-size: 26%;
     height: 100%;
-    margin: 20px 27px 0 0;
+    margin: 20px 9px 0 0;
     position: absolute;
     right: 0;
     top: 0;
@@ -615,7 +633,7 @@ header{
   background:url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
   display: block;
   height: 16px;
-  margin: 11px 0 0 12px;
+  margin: 11px 0 0 10px;
   width: 16px;
 }
 .facebook-icon{
@@ -748,7 +766,7 @@ header{
     padding: 10px;
   }
   .deals-discount{
-    margin: 20px 9px 0 0;
+    margin: 20px 8px 0 0;
   }
   .deals-img{
     padding-top: 78%;
